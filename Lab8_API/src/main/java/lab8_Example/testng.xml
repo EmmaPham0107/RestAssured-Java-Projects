@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="validPost">
+    <classes>
+      <class name="lab8_Example.Test_validPost"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="invalidPost">
+    <classes>
+      <class name="lab8_Example.Test_invalidPost"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

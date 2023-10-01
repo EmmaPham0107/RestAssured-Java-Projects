@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+  <test name="validGet">
+    <classes>
+      <class name="Lab8_Practice.validGet"/>
+    </classes>
+  </test> 
+  <test name="invalidGet">
+    <classes>
+      <class name="Lab8_Practice.invalidGet"/>
+    </classes>
+  </test>
+</suite> 

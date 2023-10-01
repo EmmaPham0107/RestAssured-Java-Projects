@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="invalidGet(failed)">
+    <classes>
+      <class name="Lab8_Practice.invalidGet">
+        <methods>
+          <include name="initMethod"/>
+          <include name="TC09_MessageChecked"/>
+          <include name="TC10_verifyOnContentOfMessage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Lab8_Practice.invalidGet -->
+    </classes>
+  </test> <!-- invalidGet(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
