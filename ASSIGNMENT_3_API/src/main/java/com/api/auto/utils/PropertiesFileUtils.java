@@ -41,7 +41,6 @@ public class PropertiesFileUtils {
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		XSSFSheet sheet = workbook.createSheet("Tokens");
 		
-		
 		XSSFRow row = sheet.createRow(0);
 		XSSFCell cell_0 = row.createCell(0);
 		cell_0.setCellValue(key);
